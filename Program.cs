@@ -18,12 +18,12 @@ class Program
     {
 
 
-        string SAS = "<Shared access signature URL (SAS) from Umbraco Cloud settings>";
+        string SASUrl = "<Shared access signature URL (SAS) from Umbraco Cloud settings>";
         string containerName = "<Container Name from the Umbraco Cloud settings>";
 
 
       
-        string connectionString = $"BlobEndpoint={SAS}";
+        string connectionString = $"BlobEndpoint={SASUrl}";
         
         
 
